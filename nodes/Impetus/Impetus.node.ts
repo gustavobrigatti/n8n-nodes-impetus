@@ -12,7 +12,9 @@ export class Impetus implements INodeType {
 		defaults: {
 			name: 'Impetus default',
 		},
+		// eslint-disable-next-line n8n-nodes-base/node-class-description-inputs-wrong-regular-node
 		inputs: [NodeConnectionType.Main],
+		// eslint-disable-next-line n8n-nodes-base/node-class-description-outputs-wrong
 		outputs: [NodeConnectionType.Main],
 		requestDefaults: {
 			baseURL: '={{$parameter["api_url"]}}', // Usa o valor do campo preenchido pelo usuário

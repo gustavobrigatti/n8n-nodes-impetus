@@ -1,15 +1,15 @@
 {
   "name": "n8n-nodes-impetus",
   "version": "0.1.0",
-  "description": "",
+  "description": "Nó customizado para o n8n que conecta com a API da Impetus.",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Gustavo Rosolen Brigatti",
+    "email": "gustavo.brigatti3@gmail.com"
   },
   "repository": {
     "type": "git",

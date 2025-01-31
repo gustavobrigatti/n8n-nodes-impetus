@@ -5,7 +5,7 @@ import {
 } from 'n8n-workflow';
 
 export class ImpetusApi implements ICredentialType {
-	name = 'ImpetusApi';
+	name = 'impetusApi';
 	displayName = 'Impetus API';
 	// Uses the link to this tutorial as an example
 	// Replace with your own docs links when building your own nodes
@@ -15,15 +15,16 @@ export class ImpetusApi implements ICredentialType {
 			displayName: 'API Key',
 			name: 'apiKey',
 			type: 'string',
+			typeOptions: { password: true },
 			default: '',
 		},
 	];
-	authenticate = {
+	authenticate: IAuthenticateGeneric = {
 		type: 'generic',
 		properties: {
 			qs: {
 				'appKey': '={{$credentials.apiKey}}'
 			}
 		},
-	} as IAuthenticateGeneric;
+	};
 }
