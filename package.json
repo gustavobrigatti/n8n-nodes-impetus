@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-impetus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Nó customizado para o n8n que conecta com a API da Impetus.",
   "keywords": [
     "n8n-community-node-package"
